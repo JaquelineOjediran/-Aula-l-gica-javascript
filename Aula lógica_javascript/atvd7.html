@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 07</title>
+</head>
+<body>
+    <script>
+        var num1 = parseFloat(prompt("Digite o primeiro número:"))
+        var num2 = parseFloat(prompt("Digite o segundo número:"))
+        var num3 = parseFloat(prompt("Digite o terceiro número:"))
+        var num4 = parseFloat(prompt("Digite o quarto número:"))
+        var num5 = parseFloat(prompt("Digite o quinto número:"))
+        var num6 = parseFloat(prompt("Digite o sexto número:"))
+
+        if(num1 < 72){
+            var inf1 = num1 
+        }else{
+            var inf1 = 0
+        }
+        if(num2 < 72){
+            var inf2 = num2
+        }else{
+            var inf2 = 0
+        }
+        if(num3 < 72){
+            var inf3 = num3 
+        }else{
+            var inf3 = 0
+        }
+        if(num4 < 72){
+            var inf4 = num4 
+        }else{
+            var inf4 = 0
+        }
+        if(num5 < 72){
+            var inf5 = num5
+        }else{
+            var inf5 = 0
+        }
+        if(num6 < 72){
+            var inf6 = num6
+        }else{
+            var inf6 = 0
+        }
+
+        var soma = inf1 + inf2 + inf3 + inf4 + inf5 + inf6
+
+        document.write("Valores informador: " + num1 + ", " + num2 + ", "  + num3 + ", "  + num4 + ", "  + num5 + ", "  + num6 + ".<br>" )
+        document.write("A soma dos números menores de 72 é igual a " + soma)
+
+    </script>
+</body>
+</html>

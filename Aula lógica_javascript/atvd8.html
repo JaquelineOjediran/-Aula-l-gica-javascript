@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 08</title>
+</head>
+<body>
+    <script>
+        var num1 = parseFloat(prompt("Digite o primeiro número:"))
+        var num2 = parseFloat(prompt("Digite o segundo número:"))
+        var num3 = parseFloat(prompt("Digite o terceiro número:"))
+        var num4 = parseFloat(prompt("Digite o quarto número:"))
+
+        if(num1 <= 10 && num1 > 0){
+            var inf1 = num1 
+        }else{
+            var inf1 = 0
+        }
+        if(num2 <= 10 && num2 > 0){
+            var inf2 = num2
+        }else{
+            var inf2 = 0
+        }
+        if(num3 <= 10 && num3 > 0){
+            var inf3 = num3 
+        }else{
+            var inf3 = 0
+        }
+        if(num1 <= 10 && num1 > 0){
+            var inf4 = num4 
+        }else{
+            var inf4 = 0
+        }
+
+        var media = (inf1 + inf2 + inf3 + inf4) / 4 
+
+        if(media > 5){
+            document.write("Você passou no teste")
+        }else{
+            document.write("Tente novamente")
+        }
+    </script>
+</body>
+</html>
